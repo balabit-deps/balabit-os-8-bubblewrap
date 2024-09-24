@@ -1,3 +1,11 @@
+bubblewrap (0.4.0-1ubuntu4.1) focal-security; urgency=medium
+
+   * This is expected to be included in 0.10.0, and is necessary to resolve
+     CVE-2024-42472 in Flatpak without introducing a potentially exploitable
+     race condition.
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Tue, 24 Sep 2024 20:05:08 -0300
+
 bubblewrap (0.4.0-1ubuntu4) focal; urgency=medium
 
   * SECURITY UPDATE: privilege escalation when used in setuid mode
